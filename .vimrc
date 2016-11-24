@@ -35,3 +35,6 @@ set t_Co=256
 " NerdTree automatically open when vim start
 autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+" Ctrl-P
+set runtimepath^=~/.vim/bundle/ctrlp.vim
