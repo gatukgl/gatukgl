@@ -8,6 +8,8 @@ set showcmd
 set incsearch
 set hlsearch
 set autoindent
+set listchars=eol:$
+set list
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
