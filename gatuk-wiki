@@ -1,0 +1,47 @@
+## ZSH
+- Installation
+$ brew install zsh
+
+- Set ZSH as default shell
+$ sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
+
+## Oh My ZSH
+- Installation
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+## Oh My ZSH Theme >> bullet-train
+- Download
+https://github.com/caiogondim/bullet-train-oh-my-zsh-theme
+
+- Put the file bullet-tain.zsh-theme to $ZSH_CUSTOM/themes/ via this script
+$ sudo mkdir $ZSH_CUSTOM/themes
+$ cp ~/Download/bullet-train-oh-my-zsh-theme $ZSH_CUSTOM/themes/
+
+- Config .zshrc file to use bullet-train theme
+ZSH_THEME = "bullet-train"
+
+## Powerline
+- Download and install Powerline to support theme UI
+$ git clone git@github.com:jeremyFreeAgent/oh-my-zsh-powerline-theme.git
+$ cd oh-my-zsh-powerline-theme/
+$ ./install_in_omz.sh
+
+- Download and install Powerline Font
+$ git clone git@github.com:powerline/fonts.git
+$ cd fonts/
+$ ./install.sh
+
+
+## VIM Plugins
+- Install vim pathogen
+$ cd ~/.vim/bundle && git clone https://github.com/tpope/vim-sensible.git
+
+- NerdTree
+$ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+
+- Ctrl-P >> for searching file name and easy open.
+$ cd ~/.vim && git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+
+- AutoComplPop >> for auto completion
+$ 
+
