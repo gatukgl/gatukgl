@@ -41,7 +41,3 @@ $ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 
 - Ctrl-P >> for searching file name and easy open.
 $ cd ~/.vim && git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
-
-- AutoComplPop >> for auto completion
-$ 
-
